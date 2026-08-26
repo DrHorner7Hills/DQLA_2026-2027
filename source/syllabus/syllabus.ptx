@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<section xml:id="syllabus" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Syllabus: Differential Equations with Linear Algebra</title>
+
+  <introduction>
+    <p>
+      This is the syllabus outlining expectations, course components, and detailing the grading system for the class.  See the Parent Night handout for more general information
+    </p>
+  </introduction>
+  <!-- Include chapters -->
+  <subsection xml:id="sec-behavior">
+    <title>Behavior Expectations</title>
+      
+<paragraphs>
+  <title>Responsibility</title>
+	<p><ul>
+		<li>listening: with mind and heart to whoever has the floor</li>
+		<li>thinking: about what we read, see, and hear means, how it connects with ideas and information we already hold and what implications it has</li>
+		<li>boundaries: respecting state and federal laws, school rules, classroom and assignment policies, and individual personal boundaries</li>
+	</ul></p>	
+</paragraphs>
+
+<paragraphs>
+  <title>Accountability</title>
+	<p>for acquiring knowledge and skills</p>
+		<p><ul>
+			<li>group work during class</li>
+			<li>problem sets</li>
+				<!--<li>lab reports</li>-->
+			<li>quizzes, tests, and exams</li>
+		</ul></p>		
+	<p>for violation of boundaries</p>
+		<p><ul>
+			<li>one-on-one conversation</li>
+			<li>emails to parents or advisor</li>
+			<li>referral to Dean's office</li>
+		</ul></p>
+</paragraphs>
+
+<paragraphs>
+  <title>Ethics</title>
+	<p>The success of the scientific enterprise rests upon two ethical pillars.  The first of them is the obligation to tell the truth, which includes avoiding fabrication, falsification, and plagiarism.  The second is the obligation to treat people well, which encourages fair and respectful relationships and eschews bias, whether implicit or explicit. <fn>Adapted from <url href="https://ori.hhs.gov/definition-research-misconduct" visual="https://ori.hhs.gov/definition-research-misconduct">Office of Research Integrity research misconduct definitions</url> as accessed 8/20/24} and  <url href="https://www.aps.org/about/governance/policies-procedures/ethics" visual="https://www.aps.org/about/governance/policies-procedures/ethics">American Physical Society guidelines on ethics</url> accessed 8/20/24.</fn>
+	</p>
+	<p><ul>
+		<li>Fabrication is making up data or results and recording or reporting them.</li>
+		<li>Falsification is manipulating research materials, equipment, or processes or changing or omitting data or results such that the research is not accurately represented in the research record.</li>
+		<li>Plagiarism is the appropriation without appropriate credit of ideas, processes, results, or words that did not come from the assigned authors of the work.  It does not matter whether the source is human or AI; dead or alive.</li>
+	</ul></p>
+
+	
+</paragraphs>
+<paragraphs>
+  <title>AI / Machine Learning / Whole Language Models / Generative AI</title>
+	<p>Machine Learning encompasses a broad category of tools.  As with any tool, they can be used productively or destructively.  For this class, you may use generative AI as a resource for producing more practice problems.  You may NOT use it to write assignments.  You may NOT enter assignments or parts of assignments from me into an AI to ask for similar questions. </p> 
+	
+	<p>You are welcome to use spell-checking and grammar-checking on typewritten responses for any assignment in my class.  Please do not use tools that guide you in changing the tone or structure of what you write.  Auto-completion in spreadsheets is fine - but make sure it autocompletes what you actually meant and not something else. </p>
+	
+	
+</paragraphs>
+<paragraphs>
+  <title>Classroom Policies</title>
+	<p><ul>
+		<li>Time in class should be focussed on the class.  Think, listen, and learn.</li>
+		<li>School iPads (personal iPads are not allowed) and laptops should be in use for class activities or put away.  Do not take photos/videos or make sound recordings of people without explicit permission from all the people.</li>
+		<li>This classroom is a shared space.  It needs to be picked up and cleaned up routinely.  If you got it out, put it away.  If you made a mess, clean it up.</li>
+		<li>Discussions with your current classmates of problems sets and labs are always encouraged with the constraint that submitted work must reflect your own final understanding of the concepts and information.  </li>
+		<li>Discussions of anything relevant to the class with Dr. Horner are always encouraged.  Advisors and Learning Support are also good non-content-specific resources.</li>
+		<li>Unless instructions say otherwise, use of AI tools to complete assignments is forbidden.</li>
+		<li>Discussions of quizzes/tests/exams with classmates is forbidden until the quiz/test/exam is graded and returned.</li>
+		<li>As an honors/AP/post-AP course, content-specific tutoring is allowed only under extraordinary circumstances.  Learning Support is fine.</li>
+		<li>If you must leave the classroom during class, make sure Dr. Horner knows you are leaving and on what errand (bathroom, nurse, early dismissal, <etc/>)</li>
+	</ul></p>	
+</paragraphs>
+</subsection>
+
+
+<subsection xml:id="sec-activities">
+<title>Activities</title>
+<paragraphs>  
+<title>New Material</title>
+		<p>Expect to take notes every day in class.  This is a way of processing information, of storing it (both electronically and in your brain), and keeping track of questions you have.  You may use paper or your school iPad but set up a way to keep your notes organized.  For most people, the process of taking notes is itself helpful in remembering and thinking about the material.  In addition, you should plan on reviewing and annotating your notes outside of class to consolidate your understanding.  You should also have your in-progress problem set available during class because you may generally ask a few questions at some point during class. </p>
+		
+		<p>Expect to work in small groups for at least part of each class session.  The goal is to increase your understanding of the material by working on new concepts immediately and through discussion with peers. Normally, this is checked by conversation with peers and on-the-spot overview by Dr. Horner.  Occasionally, a group submission may be required in which case the points will go in the Practice category.</p>
+</paragraphs>	
+
+<paragraphs>
+<title>Lab: 16% of semester grade</title>
+		<p>Collecting data will always be a group activity.  In some cases, your group will turn in one copy of the data.  In other cases, you'll each need to turn in a copy with further work.  I expect that the data will be the same for all members of the group.  Data is graded very lightly for correctness (did you collect the correct kinds of data and is it accurate within the usual range for this type of lab) and strictly for accurate labels including accurate units.</p>
+		
+		<p>Copying data from other groups is permissible only in dire circumstances and with <em>advance</em> permission from Dr. Horner; otherwise, it is academic dishonesty.  Falsifying, changing, or making up your data is always academic dishonesty.</p>
+		
+		<p>Calculations and graphs may get done during class or may need to be done afterward depending on timing.  In either case, all members of the group must contribute meaningfully to the process.</p>
+		
+		<p>The discussion will almost always be a single sentence in a prescribed structure given in the lab instructions.  This is where your group concisely and in your own words articulates the <em>claim(s)</em>, <em>evidence</em>, and <em>reasoning</em> that extracts meaning from your raw data. Again, all members of the group must contribute meaningfully to the process.</p>
+		
+		<p>Asking Dr. Horner and classmates for advice is fine.  Copying from any source, including AI, is academic dishonesty.</p>
+	
+		<p>Everyone in the group needs to assign themselves to a Canvas lab group so that one submission works for all and feedback goes to everyone.</p>    
+</paragraphs>
+
+<paragraphs>		
+	<title>Materials</title>
+		<p>The daily notes slides and homework assignments will generally tell you what sections of our textbook are relevant and may also point you towards practice sites, videos, or simulations.  These are resources to help you understand the material better and be more comfortable with it.  If you miss class, start with these resources and then meet with Dr. Horner as necessary so you understand the material.</p>
+		
+		<p>We will be using  <pubtitle>Differential Equations &amp; Linear Algebra</pubtitle> by Edwards, Penney, and Calvis.  Additional, on-line, resources are listed in the Canvas document <articletitle>Resources for the whole year</articletitle>.</p>
+		
+<!--		\subsubsection{Texts}
+		\ifodd \value{CP}
+		We will be using the OpenStax textbook \textit{Physics: High School}.  
+			<p><ul>
+				<li>There's a print edition which you can keep at home or at school as suits you best.  There will be a copy or two for reference in the school library as well.  Please make sure they stay in the library and get reshelved so other students can use them.  You will be turning in the hard copy at the end of the year.  It should be in reasonable condition and NOT have pen or pencil marks in it.</li>
+				<li>You can download the pdf from {\tiny\url{https://assets.openstax.org/oscms-prodcms/media/documents/Physics-WEB_Sab7RrQ.pdf?_gl=1*8dfx70*_ga*MjAyNTQ5MTc0Ni4xNjkxMTUzOTYw*_ga_T746F8B0QC*MTY5MjYxNjk3OS4xMi4xLjE2OTI2MTY5ODUuNTQuMC4w}} to your iPad and annotate it in Notability or copy bits from it into your own notes.</li>
+				<li>You can view directly on the web at {\tiny\url{https://openstax.org/books/physics/pages/1-introduction}}.  If you create a free account and log in, then you can annotate online.  The great thing about this method is that you can open multiple tabs in a browser and have the book open to several different pages so you can easily switch back and forth among them.</li>
+			</ul></p>
+		\fi % end CP
+		\ifodd \value{H}
+		We will be using the OpenStax textbook \textit{College Physics 2e}.  
+			<p><ul>
+				<li>There's a print edition which you can keep at home or at school as suits you best.  There will be a copy or two for reference in the school library as well.  Please make sure they stay in the library and get reshelved so other students can use them.  You will be turning in the hard copy at the end of the year.  It should be in reasonable condition and NOT have pen or pencil marks in it.</li>
+				<li>You can download the pdf from {\tiny\url{https://openstax.org/details/books/college-physics-2e}} to your iPad and annotate it in Notability or copy bits from it into your own notes.</li>
+				<li>You can view directly on the web from the same location: {\tiny\url{https://openstax.org/details/books/college-physics-2e}}.  If you create a free account and log in, then you can annotate online.  The great thing about this method is that you can open multiple tabs in a browser and have the book open to several different pages so you can easily switch back and forth among them.</li>
+			</ul></p>
+		\fi % end H
+		\ifodd \value{AP}
+		We will be using \textit{Matter \& Interactions}  by Chabay and Sherwood, 3rd edition (ISBN 978-0-470-50347-8 for the hardback version) as our physical textbook supplemented by volumes 1 and 2 of the OpenStax textbook \textit{University Physics} available at {\tiny\url{https://openstax.org/details/books/calculus-volume-1}} and {\tiny\url{https://openstax.org/details/books/calculus-volume-2}}.  You can download a pdf onto your iPad and annotate in Notability and/or you can create a free account and log in to annotate online.  The great thing about this method is that you can open multiple tabs in a browser and have the book open to several different pages so you can easily switch back and forth among them.
+		\fi % end AP
+		\ifodd \value{BC}
+		??
+		\fi % end BC
+		\ifodd \value{MVC}
+		We will be using principally \textit{Multivariable Calculus} by Stewart, 6th edition (ISBN 978-0-495-01163-7 for the hardback version) as our physical textbook supplemented by principally the 3rd volume of the OpenStax textbook \textit{Calculus} from Rice U.: {\tiny\url{https://openstax.org/details/books/calculus-volume-3}} but we will begin as a review and for anyone coming from CalcAB with some material from the tail end of {\tiny\url{https://openstax.org/details/books/calculus-volume-2}}. You may find earlier concepts from last year at {\tiny\url{https://openstax.org/details/books/calculus-volume-1}}.  You can download a pdf to your iPad and annotate in Notability and/or you can create a free account and log in to annotate online.  The great thing about this method is that you can open multiple tabs in a browser and have the book open to several different pages so you can easily switch back and forth among them.
+		\fi % end MVC
+		-->
+		
+		<p>You may use any scientific calculator in class.  The TI-84 (or the TI-89) work well.  You may also use a calculator app on your iPad <em>except</em> during tests.</p>
+</paragraphs>
+
+<paragraphs>		
+	<title>Problem Sets: 12% of semester grade</title>
+		<p>There are two goals here: one is for you to practice so that ideas and skills will stick better; the other is for you to check your level of understanding so you know whether or not you need to bring questions to Extra Help / Office Hours or a free bell.</p>
+		
+		<p>You may talk to classmates, your teacher, friends, and family, but not AI unless otherwise instructed in the assignment, <em>about</em> answering these questions but what you turn in needs to be your own understanding of them (with or without the conversations).  Copying from <em>any</em> source is academic dishonesty.</p>
+		
+		<p>Problem sets are typically posted in two versions: an interactive version and a pdf version suitable for writing on directly using your iPad.  Answers will appear in the interactive version with a click.  Please use the provided answers to check your work. Please upload a single pdf of your work to Canvas for submission.</p>
+		
+		<p>Problem sets are typically posted at the beginning of a unit and due approximate one or two weeks later, often the day of the test over that material.</p>
+			
+			<p>There are required problems, in sections with <q>Set</q> in the title for 93%, and <q>Pick</q> problems labeled as either 1% or 0.5% from which up to a total of an additional 7% can be completed.</p>
+			
+	  <p>Problem sets are due at the <alert>beginning</alert> of class on the date posted in Canvas.  Assignments submitted later that school day (by 3:45pm) will lose 5%; later homework will lose 10% per school day (capped at 50% loss).  Homework will be graded on completion where completion means you explain clearly how you arrived at your answer.  This might be in words, drawings/graphs, or equations or some combination of them.  No lonely answers.</p>
+</paragraphs>
+
+<!--<paragraphs>
+	<title>Projects: 5% of semester grade<title>
+		<p>Once or twice a quarter, larger and often more open ended projects will be assigned in addition to the problem sets.  All the problem-set rules except the ``Set'' and ``Pick'' options apply.<p>
+</paragraphs>-->
+
+<paragraphs>
+  <title>Tests: 44% of semester grade</title>
+  <p>Tests are closed-book.  Calculators are allowed. If you are asked to show <q>by hand</q> how to do integration or differentiation then you must show the process for obtaining an answer as if you had no calculator (though you may use your calculator to check).  Equations sheets <em>may</em> be provided.  Tests are typically 70-80 minutes long and consist of open-ended questions in which you will show how you arrive at your answers.  There will be eight tests over the course of the year.</p>
+		<p>You may ask questions or clarifications during the test/exam.  Whether or not they will be answered will depend on Dr. Horner's judgement of whether or not doing so would enhance or undermine the integrity of the test/exam.  No resources other than those mentioned at the top of each test or exam are permissible during that test or exam.</p>
+</paragraphs>
+
+<paragraphs>
+  <title>Semester Exams: 20%</title>
+  <p>Semester exams are in the same format and given under the same conditions as tests except that they are 2 hours long with a 15 minute grace period allowed (the grace period is <em>not</em> increased for students with extended time by school policy).</p>
+  <p>All students will take a Winter Exam.  Seniors with a class average and a fourth-quarter average of 85% or better may elect to skip the spring exam. In which case, all the 20% will be redistributed proportionally among the other grading categories.</p> 
+</paragraphs>  
+			
+<paragraphs>
+<title>Test Corrections and Reflections: 4% of semester grade</title>
+		<p>As a separate component you will be required to submit \textbf{test reflections} for each test and the winter exam.  This will consist of 
+		<ul>
+			<li>photos of your graded test,</li>
+			<li>reflection on what went wrong on each problem or problem part marked off, </li>
+			<li>a corrected solution </li>
+			<li>plus if that answer materially changes further parts of the problem, corrections of them as well, and</li>
+			<li>an overall reflection of what went well and what went poorly in your preparation for and taking of the text.</li>
+		</ul></p> 
+		
+		<p>The intent is both that tests be learning experiences and to replace incorrect practice with correct practice.</p>
+</paragraphs>
+
+<paragraphs>
+  <title>What to do if you get stuck</title>
+	If you get stuck doing homework, feel uncertain of your grasp of something, or feel completely confused, you have a variety of possible next steps.
+	<p><ul>
+		<li>Imagine asking someone the question you want to ask (Mr. Twyford's ``ask the rubber duck'' method).  Sometimes this helps you at least see more clearly why you're stuck.</li>
+		<li>Reread your notes, the textbook, or review any simulations, videos, etc. suggested for that unit.</li>
+		<li>Discuss your question with a classmate.  (Note that this is NOT the same as asking what the answer is or even asking what calculation to do.)</li>
+		<li>Consult your teacher.  There's usually ``Extra Help / Office Hours'' twice a week during Community Time.  Lunch, before school, or right after school may also work.  Mutual free bells also work, though an email checking no conflicts have arisen is useful.</li>
+		<li>Turn your attention to something else (possibly including sleeping if it's night) on your to-do list and come back later with a refreshed brain.</li>
+	</ul></p>
+</paragraphs>
+
+
+<paragraphs>
+  <title>Absence from class</title>
+	<p>See the <q>Student Life Guide</q>, <q>Condensed Student Policies</q>, and <q>Planned Absence Form</q> in the Canvas Student Central course for how to handle absences.</p>
+</paragraphs>
+
+
+<paragraphs>
+  <title>Accommodations</title>
+	<p>If you have accommodations, especially testing accommodations, please speak with Dr. Horner briefly so we have the same understanding of how they will play out in the context of this particular class.  Generally speaking for extended time, take half during class and the other half in Study Hall during the first available free bell.</p>
+</paragraphs>
+</subsection>
+
+<subsection xml:id="sec-scale">
+  <title>Grading Scale</title>
+	<p>Final letter grades will be computed according to the table of percentages below.</p>
+	
+	<tabular>
+    <col halign="right"/> <col halign="left"/> <col halign="right"/> <col halign="left"/> 
+    <row><cell>A+</cell><cell>97 <m>\lte</m> grade</cell> <cell>C+</cell><cell>77 <m>\lte</m> grade <m>\lt</m> 80</cell></row>
+    <row><cell>A</cell><cell>93 <m>\lte</m> grade <m>\lt</m> 97</cell> <cell>C</cell><cell>73 <m>\lte</m> grade <m>\lt</m> 77</cell></row>
+    <row><cell>A-</cell><cell>90 <m>\lte</m> grade <m>\lt</m> 93</cell> <cell>C-</cell><cell>70 <m>\lte</m> grade <m>\lt</m> 73</cell></row>
+    <row><cell>B+</cell><cell>87 <m>\lte</m> grade <m>\lt</m> 90</cell> <cell>D+</cell><cell>67 <m>\lte</m> grade <m>\lt</m> 70</cell></row>
+    <row><cell>B</cell><cell>83 <m>\lte</m> grade <m>\lt</m> 87</cell> <cell>D</cell><cell>63 <m>\lte</m> grade <m>\lt</m> 67</cell></row>
+    <row><cell>B-</cell><cell>80 <m>\lte</m> grade <m>\lt</m> 83</cell> <cell>D-</cell><cell>60 <m>\lte</m> grade <m>\lt</m> 63</cell></row>
+	</tabular>
+	<p>Grades less than 60% will be reported as NP = not passing.</p>
+	
+	<p>Percentages will be rounded to the nearest whole number and exact half points will round up in the final assignment of grades.  But note that Canvas will be set not to show rounded grades.</p>
+</subsection>
+
+</section>

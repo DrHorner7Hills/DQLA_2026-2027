@@ -1,0 +1,56 @@
+INFO    : Building target course
+INFO    : XSL conversion of /Users/lenore.horner/Documents/Professional/Classes/7Hills/2026-2027/DQLA/diff-eq-lin-alg_2026-2027/source/main.ptx by /Users/lenore.horner/.ptx/2.50.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/lenore.horner/.ptx/2.50.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : discovering source file's directory name: /Users/lenore.horner/Documents/Professional/Classes/7Hills/2026-2027/DQLA/diff-eq-lin-alg_2026-2027/source
+INFO    : verifying and expanding input directory: /Users/lenore.horner/Documents/Professional/Classes/7Hills/2026-2027/DQLA/diff-eq-lin-alg_2026-2027/source/../assets
+INFO    : input directory expanded to absolute path: /Users/lenore.horner/Documents/Professional/Classes/7Hills/2026-2027/DQLA/diff-eq-lin-alg_2026-2027/assets
+INFO    : Generating any needed assets.
+INFO    : Finished generating assets.
+
+INFO    : Preparing to build into /Users/lenore.horner/Documents/Professional/Classes/7Hills/2026-2027/DQLA/diff-eq-lin-alg_2026-2027/output/course.
+INFO    : XSL conversion of /Users/lenore.horner/Documents/Professional/Classes/7Hills/2026-2027/DQLA/diff-eq-lin-alg_2026-2027/source/main.ptx by /Users/lenore.horner/.ptx/2.50.0/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : successful application of /Users/lenore.horner/.ptx/2.50.0/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : Downloading rs services file from https://runestone.academy/cdn/runestone/latest/webpack_static_imports.xml.
+INFO    : Runestone Services via online CDN query: version 8.2.7
+INFO    : Downloading Runestone Services, version 8.2.7
+INFO    : Extracting Runestone Services from archive file
+INFO    : Building custom css theme: theme-denver
+INFO    : converting /Users/lenore.horner/Documents/Professional/Classes/7Hills/2026-2027/DQLA/diff-eq-lin-alg_2026-2027/source/main.ptx to HTML in /var/folders/qb/p4gnhj3x4dnbqwbdtdqvfdrc0000gv/T/ptx-o1k1k7dh
+INFO    : XSL conversion of /Users/lenore.horner/Documents/Professional/Classes/7Hills/2026-2027/DQLA/diff-eq-lin-alg_2026-2027/source/main.ptx by /Users/lenore.horner/.ptx/2.50.0/core/xsl/pretext-html.xsl
+INFO    : messages from the log for XSL processing (prefaced with a *):
+INFO    : * PTX:INFO:   checking all deprecated elements.
+INFO    : successful application of /Users/lenore.horner/.ptx/2.50.0/core/xsl/pretext-html.xsl
+INFO    : Removing temporary directory /var/folders/qb/p4gnhj3x4dnbqwbdtdqvfdrc0000gv/T/ptx-o1k1k7dh
+INFO    : Removing temporary directory /var/folders/qb/p4gnhj3x4dnbqwbdtdqvfdrc0000gv/T/ptx-r9aia4pt
+INFO    : 
+Finished build for target course. Run `pretext view course` to see the results.
+
+INFO    : Building target slides_2026-08-26
+INFO    : XSL conversion of /Users/lenore.horner/Documents/Professional/Classes/7Hills/2026-2027/DQLA/diff-eq-lin-alg_2026-2027/source/slides_2026-08-26_diff-eq-math-models.ptx by /Users/lenore.horner/.ptx/2.50.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : Preparing to build into /Users/lenore.horner/Documents/Professional/Classes/7Hills/2026-2027/DQLA/diff-eq-lin-alg_2026-2027/output/slides_2026-08-26.
+INFO    : XSL conversion of /Users/lenore.horner/Documents/Professional/Classes/7Hills/2026-2027/DQLA/diff-eq-lin-alg_2026-2027/source/slides_2026-08-26_diff-eq-math-models.ptx by /Users/lenore.horner/.ptx/2.50.0/core/xsl/utilities/report-publisher-variables.xsl
+INFO    : converting /Users/lenore.horner/Documents/Professional/Classes/7Hills/2026-2027/DQLA/diff-eq-lin-alg_2026-2027/source/slides_2026-08-26_diff-eq-math-models.ptx to HTML in /var/folders/qb/p4gnhj3x4dnbqwbdtdqvfdrc0000gv/T/ptx-jpadb42_
+INFO    : XSL conversion of /Users/lenore.horner/Documents/Professional/Classes/7Hills/2026-2027/DQLA/diff-eq-lin-alg_2026-2027/source/slides_2026-08-26_diff-eq-math-models.ptx by /Users/lenore.horner/.ptx/2.50.0/core/xsl/pretext-revealjs.xsl
+INFO    : * ********************************************************************************
+INFO    : * Conversion to reveal.js presentations/slideshows is experimental
+INFO    : * Requests for additional specific constructions welcome
+INFO    : * Additional PreTeXt elements are subject to change
+INFO    : successful application of /Users/lenore.horner/.ptx/2.50.0/core/xsl/pretext-revealjs.xsl
+INFO    : Removing temporary directory /var/folders/qb/p4gnhj3x4dnbqwbdtdqvfdrc0000gv/T/ptx-jpadb42_
+INFO    : Removing temporary directory /var/folders/qb/p4gnhj3x4dnbqwbdtdqvfdrc0000gv/T/ptx-t9fsukxz
+INFO    : 
+Finished build for target slides_2026-08-26. The output is in /Users/lenore.horner/Documents/Professional/Classes/7Hills/2026-2027/DQLA/diff-eq-lin-alg_2026-2027/output/slides_2026-08-26.
+
+INFO    : Building target slides
+INFO    : Preparing to build into /Users/lenore.horner/Documents/Professional/Classes/7Hills/2026-2027/DQLA/diff-eq-lin-alg_2026-2027/output/slides.
+INFO    : converting /Users/lenore.horner/Documents/Professional/Classes/7Hills/2026-2027/DQLA/diff-eq-lin-alg_2026-2027/source/main.ptx to HTML in /var/folders/qb/p4gnhj3x4dnbqwbdtdqvfdrc0000gv/T/ptx-jrupy27o
+INFO    : XSL conversion of /Users/lenore.horner/Documents/Professional/Classes/7Hills/2026-2027/DQLA/diff-eq-lin-alg_2026-2027/source/main.ptx by /Users/lenore.horner/.ptx/2.50.0/core/xsl/pretext-revealjs.xsl
+INFO    : Removing temporary directory /var/folders/qb/p4gnhj3x4dnbqwbdtdqvfdrc0000gv/T/ptx-jrupy27o
+INFO    : Removing temporary directory /var/folders/qb/p4gnhj3x4dnbqwbdtdqvfdrc0000gv/T/ptx-biwwxgn7
+INFO    : 
+Finished build for target slides. The output is in /Users/lenore.horner/Documents/Professional/Classes/7Hills/2026-2027/DQLA/diff-eq-lin-alg_2026-2027/output/slides.
+
+INFO    : 
+Success!  Built requested target(s) without errors.
+
+INFO    : 

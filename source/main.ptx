@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- This is the main course file for ... . It is used to generate all the public facing course materials so those can be hosted online.  -->
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- Include common macros etc: -->
+  <xi:include href="./docinfo.ptx" />
+  <!-- By creating a PreTeXt "book" for the course, we can split components into "chapters" -->
+  <book>
+    <title>Differential Equations with Linear Algebra</title>
+
+    <subtitle>2026-2027</subtitle>
+
+    <!-- Optional: include frontmatter with author info and date -->
+    <xi:include href="./frontmatter.ptx" />
+
+    <chapter xml:id="course-documents">
+      <title>Course Documents</title>
+
+      <!-- Course syllabus -->
+      <xi:include href="./syllabus/syllabus.ptx" />
+      <!-- Other documents could go here, like a schedule, project description, etc. -->
+    </chapter>
+
+    <chapter xml:id="slides">
+      <title>Daily Slideshows</title>
+      
+      <introduction>
+        <p> This is where each day's notes get stored. </p>
+      </introduction>
+    </chapter>
+
+    <chapter xml:id="labs">
+      <title>Labs</title>
+
+      <introduction>
+        <p>
+          These are the instructions for individual labs.  More will be added as the year progresses.
+        </p>
+      </introduction>
+
+      <!-- Remove the example and replace with your own activities -->
+      <!--<xi:include href="./activities/01-intro-activity.ptx"/>-->
+
+      <!-- Add more xi:include files here to include them in the main course -->
+    </chapter>
+
+
+    <chapter xml:id="problems">
+      <title>Problem Sets</title>
+      
+      <introduction>
+        <p>
+          These are the problem sets for the year.  More will be added as the year progresses.
+        </p>
+      </introduction>
+      <!-- Include homework files -->
+      <!--<xi:include href="./problems/problem-set-01.ptx"/>-->
+
+    </chapter>
+
+    <!-- Include additional chapters for other categories -->
+
+    </book>
+  </pretext>

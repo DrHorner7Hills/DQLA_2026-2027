@@ -1,0 +1,10 @@
+INFO    : Staging deployment according to strategy pelican_default
+INFO    : Staging `course` at `/Users/lenore.horner/Documents/Professional/Classes/7Hills/2026-2027/DQLA/diff-eq-lin-alg_2026-2027/output/stage/course`.
+INFO    : Staging `slides_2026-08-26` at `/Users/lenore.horner/Documents/Professional/Classes/7Hills/2026-2027/DQLA/diff-eq-lin-alg_2026-2027/output/stage/slides/slides_2026-08-26_diff-eq-math-models`.
+INFO    : Staging `slides` at `/Users/lenore.horner/Documents/Professional/Classes/7Hills/2026-2027/DQLA/diff-eq-lin-alg_2026-2027/output/stage/course/slides`.
+INFO    : Staging generated site at `/Users/lenore.horner/Documents/Professional/Classes/7Hills/2026-2027/DQLA/diff-eq-lin-alg_2026-2027/output/stage`.
+INFO    : XSL conversion of /Users/lenore.horner/Documents/Professional/Classes/7Hills/2026-2027/DQLA/diff-eq-lin-alg_2026-2027/source/main.ptx by /Users/lenore.horner/.ptx/2.50.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : successful application of /Users/lenore.horner/.ptx/2.50.0/core/xsl/utilities/pretext-enhanced-source.xsl
+INFO    : Deployment is now staged at `/Users/lenore.horner/Documents/Professional/Classes/7Hills/2026-2027/DQLA/diff-eq-lin-alg_2026-2027/output/stage`.
+INFO    : Initializing project with Git.
+INFO    : Setting up name/email configuration for Git...

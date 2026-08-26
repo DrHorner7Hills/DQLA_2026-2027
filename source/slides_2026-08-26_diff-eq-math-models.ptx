@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This is a sample slide deck to get started with.  If you want the slides to be built, -->
+<!-- you must go to `project.ptx` and uncomment the slides targets (starting on line 12)   -->
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- Include the docinfo common to the course, in the parent folder (..) -->
+  <xi:include href="./docinfo.ptx"/>
+
+  <slideshow xml:id="slides">
+    <title>DQLA 2026-08-26: Differential Equations and Mathematical Models</title>
+
+    <frontmatter>
+      <titlepage-items/>
+    </frontmatter>
+
+    <!-- This assumes you want to structure your entire slide deck by sections -->
+    <!-- RevealJS will use 2-d navigation: move left-right to switch between sections, up-down to switch between slides in a section -->
+    <section xml:id="sec-1">
+      <title>Opening</title>
+
+      <slide>
+        <title>Plans</title>
+        <p>
+          <ul>
+            <li>W 8/26: diff eq and math models (EPC 1.1)</li>
+            <li>F 8/28: integrals as general and particular solutions (EPC 1.2)</li>            
+          </ul>
+        </p>
+
+      </slide>
+    </section>
+
+    <section xml:id="sec-2">
+      <title>Section 1.2</title>
+      <slide>
+        <title>Definition</title>
+        <p>
+          algebra vs diff. eq.
+        </p>
+      </slide>
+      <slide>
+        <title>Goals</title>
+        <p><ul>
+          <li>discovery</li>
+          <li>solution</li>
+          <li>interpretation</li>
+        </ul></p>
+      </slide>
+      <slide>
+        <title>Families of Solutions</title>
+        <p>
+          examples from 1D calc
+        </p>
+      </slide>
+    </section>
+         
+     <section xml:id="sec-examples"> 
+      <title>Examples</title>
+      <slide>
+        <title>Newton's law of cooling</title>
+        <p>
+        The time rate of change of the temperature of a body is proportional to the difference between the body's temperature and the temperature of the surrounding medium.
+        </p>
+      </slide>
+      <slide>
+        <title>Torricelli's law</title>
+        <p>
+        The time rate of change of the volume of water draining from a tank is proportional to the square root of the depth of water in the tank.
+        </p>
+        <p>We can find a general equation and also a common special case of a right cylindrical tank.</p>
+      </slide>
+      <slide>
+        <title>Population growth</title>
+        <p>
+          A simplistic model of population growth when birth and death rates are constant is that the time rate of change of the population is proportional to the current population.  
+        </p>
+        <p>If we further know that the population at 0 hours is 1000 bacteria and that the population at 1 hour is 2000 bacteria, how can we make the differential equation and its solution more specific to this particular scenario?</p>
+      </slide>
+    </section>
+
+     <section xml:id="sec-practice"> 
+      <title>In-class practice</title>
+      <slide>
+        <title>IC-1</title>
+        <p>
+          Verify by substitution that both <m>y_1=\cos(x) -\cos(2x)</m> and <m>y_2=\sin(x)-\cos(2x)</m> are solutions to the differential equation <m>y^{\prime\prime}+y=3\cos(2x)</m>. <!--EPC4 1.1.8-->
+        </p>
+      </slide>
+      <slide>
+        <title>IC-2</title>
+        <p>
+          For what values of <m>r</m> is <m>y=e^{r x}</m> a solution of <m>4y^{\prime\prime}=y</m>? <!--EPC 1.1.14-->
+        </p>
+      </slide>
+      <slide>
+        <title>IC-3</title>
+        <p>
+          Write a differential equation describing a graph whose tangent to the graph at point <m>(x,y)</m> intercepts the <m>x</m>-axis at the point <m>\left(\frac{x}{2},0\right)</m>. <!--EPC 1.1.28 -->
+        </p>
+      </slide>
+      <slide>
+        <title>IC-4</title>
+        <p>
+         Write a differential equation modeling the information that the acceleration <m>\frac{d v}{d t}</m> of a Lamborghini is proportional to the difference between 250km/h and the velocity of the car. <!--EPC 1.1.34-->
+        </p>
+      </slide>
+    </section>
+
+    <section xml:id="sec-last">
+      <title>Closing</title>
+
+      <slide>
+        <title>Reminders</title>
+        <p>
+          <ul>
+            <li>Review your notes.</li>
+            <li>Start working on the problem set as soon as possible.</li>         
+          </ul>
+        </p>
+
+      </slide>
+    </section>
+
+  </slideshow>
+</pretext>
