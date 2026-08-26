@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Chapter",
   "number": "",
   "title": "Daily Slideshows",
-  "body": " Daily Slideshows   This is where each day's notes get stored.   "
+  "body": " Daily Slideshows   This is where each day's notes get stored.    "
 },
 {
   "id": "labs",
