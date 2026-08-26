@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<!--********************************************-->
+<!--*       Generated from PreTeXt source      *-->
+<!--*                                          *-->
+<!--*         https://pretextbook.org          *-->
+<!--*                                          *-->
+<!--********************************************-->
+<html lang="en-US" dir="ltr">
+<!--******************************************-->
+<!--*  Authored with PreTeXt                 *-->
+<!--*  pretextbook.org                       *-->
+<!--*  Theme: denver                         *-->
+<!--*  Palette:                              *-->
+<!--******************************************-->
+<head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Syllabus: Differential Equations with Linear Algebra</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<script type="module">import { startMathJax } from './_static/pretext/js/dist/mathjax_startup.js';
+startMathJax({
+hasWebworkReps: false,
+hasSage: false,
+isReact: false,
+htmlPresentation: false,
+lang: "en-US",
+});
+</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-mml-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="book">
+<meta name="twitter:title" content="Differential Equations with Linear Algebra">
+<meta property="og:title" content="Differential Equations with Linear Algebra">
+<meta property="book:title" content="Differential Equations with Linear Algebra">
+<meta name="twitter:description" content="2026-2027">
+<meta property="og:description" content="2026-2027">
+<meta name="twitter:card" content="summary">
+<script src="_static/pretext/js/jquery.min.js"></script><script src="_static/pretext/js/dist/pretext-core.js?v=2.50"></script><script src="_static/pretext/js/dist/pretext-read-aloud.js?v=2.50"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '8.2.7';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="_static/prefix-runtime.7d3f08d51c2b60f8.bundle.js"></script><script src="_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="_static/prefix-runestone.bb5ac777721d4056.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-926.229729d09512acc9.css">
+<link rel="stylesheet" type="text/css" href="_static/prefix-runestone.efe427683fc41f98.css">
+<script src="_static/pretext/js/dist/lti_iframe_resizer.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/dist/pretext_search.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body class="pretext book ignore-math">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead" role="banner"><div class="ptx-banner"><div class="title-container">
+<div class="heading ptx-banner-heading"><a href="root-1-2.html"><span class="title">Differential Equations with Linear Algebra</span> <span class="subtitle">2026-2027</span></a></div>
+<p class="byline">Dr. Horner</p>
+</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+<button id="ptx-toc-toggle" type="button" aria-controls="ptx-sidebar" class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="ptx-search-box">
+<div class="ptx-search-widget"><button id="ptx-search-button" type="button" class="ptx-search-button button" title="Search Book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
+<dialog id="ptx-search-dialog" class="ptx-dialog ptx-search-dialog"><div class="ptx-search-dialog-controls">
+<input aria-label="Search term" id="ptx-search-terms" class="ptx-search-terms" type="text" name="terms" placeholder="Search terms"><button aria-label="Close" id="ptx-search-close" class="ptx-search-close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div id="ptx-search-status" class="ptx-search-status" aria-live="polite" aria-atomic="true"></div>
+<h2 class="heading ptx-search-results-heading">Search Results: </h2>
+<div id="ptx-search-empty" class="ptx-search-empty"><span>No results.</span></div>
+<ol id="ptx-search-results" class="ptx-search-results"></ol></dialog>
+</div>
+<span class="nav-other-controls"><button id="ptx-embed-button" class="ptx-embed-button button" title="Embed this page"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe86f;</span><span class="name">Embed</span></button><dialog class="ptx-dialog ptx-embed-popup" id="ptx-embed-popup"><div class="ptx-embed-popup-controls">
+<p>Copy the code below to embed this page in your own website or LMS page.</p>
+<button class="ptx-embed-close-button button" id="ptx-embed-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-embed-code-container">
+<textarea class="ptx-embed-code-textbox" id="ptx-embed-code-textbox" readonly aria-label="Embed"><iframe src="https://example.com/embed" width="100%" height="1000"></iframe></textarea><button autofocus="autofocus" class="ptx-embed-copy-button button" id="ptx-embed-copy-button" title="Copy"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe14d;</span><span class="name">Copy</span></button>
+</div></dialog><button id="ptx-read-aloud-button" class="ptx-read-aloud-button button" title="Read aloud" aria-expanded="false"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf1bc;</span><span class="name">Read aloud</span></button><div id="ptx-read-aloud-player" class="ptx-read-aloud-player" hidden="hidden" role="group" aria-label="Read aloud">
+<button id="ptx-read-aloud-prev" class="button" title="Previous sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe045;</span></button><button id="ptx-read-aloud-toggle" class="ptx-read-aloud-toggle button" title="Play"><span class="ptx-read-aloud-icon-play"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></span><span class="ptx-read-aloud-icon-pause"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe034;</span></span></button><button id="ptx-read-aloud-next" class="button" title="Next sentence"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe044;</span></button><a id="ptx-read-aloud-continue" class="ptx-read-aloud-continue button" hidden="hidden">Continue<span class="icon material-symbols-outlined" aria-hidden="true">&#xe037;</span></a><button id="ptx-read-aloud-settings-button" class="ptx-read-aloud-settings-button button" title="Reading settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe429;</span></button>
+</div>
+<dialog class="ptx-dialog ptx-read-aloud-settings-popup" id="ptx-read-aloud-settings-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Read aloud settings</h2>
+<button class="ptx-read-aloud-settings-close-button button" id="ptx-read-aloud-settings-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-readability-options-group">
+<label for="ptx-read-aloud-voice"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe91f;</span><span>Voice</span></label><select id="ptx-read-aloud-voice"></select><label class="ptx-readability-slider-label" for="ptx-read-aloud-rate"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe9e4;</span><span>Reading speed</span><output id="ptx-read-aloud-rate-value" for="ptx-read-aloud-rate">1×</output></label><input type="range" id="ptx-read-aloud-rate" min="0.5" max="2" step="0.1" value="1"><label for="ptx-read-aloud-asides"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d7;</span><span>Collapsed content</span></label><select id="ptx-read-aloud-asides"><option value="skip">Announce, do not read</option>
+<option value="read">Read automatically</option></select><label for="ptx-read-aloud-autoscroll"><input type="checkbox" id="ptx-read-aloud-autoscroll" checked><span>Follow along (auto-scroll)</span></label><label for="ptx-read-aloud-autocontinue"><input type="checkbox" id="ptx-read-aloud-autocontinue"><span>Continue to the next page automatically</span></label>
+</div></dialog><button id="ptx-readability-options-button" class="ptx-readability-options-button button" title="Readability settings"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf6f1;</span><span class="name">Readability settings</span></button><dialog class="ptx-dialog ptx-readability-options-popup" id="ptx-readability-options-popup"><div class="ptx-readability-options-popup-controls">
+<h2 class="heading">Readability settings</h2>
+<button class="ptx-readability-options-close-button button" id="ptx-readability-options-close-button" title="Close"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cd;</span></button>
+</div>
+<div class="ptx-readability-options-group">
+<label class="ptx-readability-slider-label" for="ptx-readability-line-height"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe240;</span><span>Line height</span><output id="ptx-readability-line-height-value" for="ptx-readability-line-height">1.35</output></label><input type="range" id="ptx-readability-line-height" min="1.10" max="3" step="0.05" value="1.35">
+</div>
+<div class="ptx-readability-options-group">
+<label class="ptx-readability-slider-label" for="ptx-readability-font-size"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe245;</span><span>Content font size</span><output id="ptx-readability-font-size-value" for="ptx-readability-font-size">100%</output></label><input type="range" id="ptx-readability-font-size" min="0.8" max="1.5" step="0.05" value="1">
+</div>
+<fieldset class="ptx-readability-options-group ptx-readability-options-group-theme">
+<legend>Theme</legend>
+<label for="ptx-readability-theme-system"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-system" value="system"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe1ab;</span><span>System</span></label><label for="ptx-readability-theme-light"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-light" value="light"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe518;</span><span>Light</span></label><label for="ptx-readability-theme-dark"><input type="radio" name="ptx-readability-theme" id="ptx-readability-theme-dark" value="dark"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span>Dark</span></label>
+</fieldset>
+<fieldset class="ptx-readability-options-group">
+<legend>Assistive technologies</legend>
+<label for="ptx-readability-accessible-permalinks"><input type="checkbox" id="ptx-readability-accessible-permalinks"><span>🔗</span><span>Expose permalinks</span></label>
+</fieldset>
+<div class="ptx-readability-options-group"><button type="button" class="ptx-readability-reset-button button" id="ptx-readability-reset-button"><span class="icon material-symbols-outlined" aria-hidden="true">&#xf053;</span><span class="name">Reset All</span></button></div></dialog></span><span class="treebuttons"><a class="previous-button button" href="course-documents.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="course-documents.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="slides.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\Q}{\mathbb Q}
+\newcommand{\R}{\mathbb R}
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div id="ptx-sidebar" role="complementary" class="ptx-sidebar"><nav id="ptx-toc" tabindex="-1" aria-label="Contents" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a href="course-documents.html" class="internal"><span class="title">Course Documents</span></a></div>
+<ul class="structural toc-item-list contains-active" id="ptx-toc-group-course-documents"><li class="toc-item toc-section contains-active">
+<div class="toc-title-box"><a href="syllabus.html" class="internal"><span class="title">Syllabus: Differential Equations with Linear Algebra</span></a></div>
+<ul class="structural toc-item-list active" id="ptx-toc-group-syllabus">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus.html#sec-behavior" class="internal"><span class="title">Behavior Expectations</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus.html#sec-activities" class="internal"><span class="title">Activities</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="syllabus.html#sec-scale" class="internal"><span class="title">Grading Scale</span></a></div></li>
+</ul>
+</li></ul>
+</li>
+<li class="toc-item toc-chapter"><div class="toc-title-box"><a href="slides.html" class="internal"><span class="title">Daily Slideshows</span></a></div></li>
+<li class="toc-item toc-chapter"><div class="toc-title-box"><a href="labs.html" class="internal"><span class="title">Labs</span></a></div></li>
+<li class="toc-item toc-chapter"><div class="toc-title-box"><a href="problems.html" class="internal"><span class="title">Problem Sets</span></a></div></li>
+</ul></nav></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content">
+<section class="section" id="syllabus">
+<h1 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Syllabus: Differential Equations with Linear Algebra</span>
+</h1>
+<section class="introduction" id="syllabus-2">
+<div class="para" id="syllabus-2-1">This is the syllabus outlining expectations, course components, and detailing the grading system for the class.  See the Parent Night handout for more general information<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#syllabus-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div></section>
+<section class="subsection" id="sec-behavior">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Behavior Expectations</span>
+</h2>
+<section class="paragraphs" id="sec-behavior-2"><h3 class="heading"><span class="title">Responsibility.</span></h3>
+<div class="para logical" id="sec-behavior-2-2">
+<ul class="disc" id="sec-behavior-2-2-1">
+<li id="sec-behavior-2-2-1-1">
+<div class="para" id="p-derived-sec-behavior-2-2-1-1">listening: with mind and heart to whoever has the floor</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-behavior-2-2-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-behavior-2-2-1-2">
+<div class="para" id="p-derived-sec-behavior-2-2-1-2">thinking: about what we read, see, and hear means, how it connects with ideas and information we already hold and what implications it has</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-behavior-2-2-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-behavior-2-2-1-3">
+<div class="para" id="p-derived-sec-behavior-2-2-1-3">boundaries: respecting state and federal laws, school rules, classroom and assignment policies, and individual personal boundaries</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-behavior-2-2-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-behavior-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Responsibility"><a tabindex="-1" href="#sec-behavior-2" title="Copy heading and permalink for Paragraphs: Responsibility" aria-label="Copy heading and permalink for Paragraphs: Responsibility">🔗</a></div>
+</section>
+<section class="paragraphs" id="sec-behavior-3"><h3 class="heading"><span class="title">Accountability.</span></h3>
+<div class="para" id="sec-behavior-3-2">for acquiring knowledge and skills<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-behavior-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-behavior-3-3">
+<ul class="disc" id="sec-behavior-3-3-1">
+<li id="sec-behavior-3-3-1-1">
+<div class="para" id="p-derived-sec-behavior-3-3-1-1">group work during class</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-behavior-3-3-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-behavior-3-3-1-2">
+<div class="para" id="p-derived-sec-behavior-3-3-1-2">problem sets</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-behavior-3-3-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-behavior-3-3-1-3">
+<div class="para" id="p-derived-sec-behavior-3-3-1-3">quizzes, tests, and exams</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-behavior-3-3-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-behavior-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-behavior-3-4">for violation of boundaries<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-behavior-3-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-behavior-3-5">
+<ul class="disc" id="sec-behavior-3-5-1">
+<li id="sec-behavior-3-5-1-1">
+<div class="para" id="p-derived-sec-behavior-3-5-1-1">one-on-one conversation</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-behavior-3-5-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-behavior-3-5-1-2">
+<div class="para" id="p-derived-sec-behavior-3-5-1-2">emails to parents or advisor</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-behavior-3-5-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-behavior-3-5-1-3">
+<div class="para" id="p-derived-sec-behavior-3-5-1-3">referral to Dean’s office</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-behavior-3-5-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-behavior-3-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Accountability"><a tabindex="-1" href="#sec-behavior-3" title="Copy heading and permalink for Paragraphs: Accountability" aria-label="Copy heading and permalink for Paragraphs: Accountability">🔗</a></div>
+</section>
+<section class="paragraphs" id="sec-behavior-4"><h3 class="heading"><span class="title">Ethics.</span></h3>
+<div class="para" id="sec-behavior-4-2">The success of the scientific enterprise rests upon two ethical pillars.  The first of them is the obligation to tell the truth, which includes avoiding fabrication, falsification, and plagiarism.  The second is the obligation to treat people well, which encourages fair and respectful relationships and eschews bias, whether implicit or explicit. <details class="ptx-footnote" aria-live="polite" id="sec-behavior-4-2-1"><summary class="ptx-footnote__number" title="Footnote 1"><sup> 1 </sup></summary>
+<div class="ptx-footnote__contents" id="sec-behavior-4-2-1">Adapted from <a class="external" href="https://ori.hhs.gov/definition-research-misconduct" target="_blank">Office of Research Integrity research misconduct definitions</a> as accessed 8/20/24} and  <a class="external" href="https://www.aps.org/about/governance/policies-procedures/ethics" target="_blank">American Physical Society guidelines on ethics</a> accessed 8/20/24.
+</div></details><div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-behavior-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para logical" id="sec-behavior-4-3">
+<ul class="disc" id="sec-behavior-4-3-1">
+<li id="sec-behavior-4-3-1-1">
+<div class="para" id="p-derived-sec-behavior-4-3-1-1">Fabrication is making up data or results and recording or reporting them.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-behavior-4-3-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-behavior-4-3-1-2">
+<div class="para" id="p-derived-sec-behavior-4-3-1-2">Falsification is manipulating research materials, equipment, or processes or changing or omitting data or results such that the research is not accurately represented in the research record.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-behavior-4-3-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-behavior-4-3-1-3">
+<div class="para" id="p-derived-sec-behavior-4-3-1-3">Plagiarism is the appropriation without appropriate credit of ideas, processes, results, or words that did not come from the assigned authors of the work.  It does not matter whether the source is human or AI; dead or alive.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-behavior-4-3-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-behavior-4-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Ethics"><a tabindex="-1" href="#sec-behavior-4" title="Copy heading and permalink for Paragraphs: Ethics" aria-label="Copy heading and permalink for Paragraphs: Ethics">🔗</a></div>
+</section>
+<section class="paragraphs" id="sec-behavior-5"><h3 class="heading"><span class="title">AI / Machine Learning / Whole Language Models / Generative AI.</span></h3>
+<div class="para" id="sec-behavior-5-2">Machine Learning encompasses a broad category of tools.  As with any tool, they can be used productively or destructively.  For this class, you may use generative AI as a resource for producing more practice problems.  You may NOT use it to write assignments.  You may NOT enter assignments or parts of assignments from me into an AI to ask for similar questions.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-behavior-5-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-behavior-5-3">You are welcome to use spell-checking and grammar-checking on typewritten responses for any assignment in my class.  Please do not use tools that guide you in changing the tone or structure of what you write.  Auto-completion in spreadsheets is fine - but make sure it autocompletes what you actually meant and not something else.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-behavior-5-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: AI / Machine Learning / Whole Language Models / Generative AI"><a tabindex="-1" href="#sec-behavior-5" title="Copy heading and permalink for Paragraphs: AI / Machine Learning / Whole Language Models / Generative AI" aria-label="Copy heading and permalink for Paragraphs: AI / Machine Learning / Whole Language Models / Generative AI">🔗</a></div>
+</section>
+<section class="paragraphs" id="sec-behavior-6"><h3 class="heading"><span class="title">Classroom Policies.</span></h3>
+<div class="para logical" id="sec-behavior-6-2">
+<ul class="disc" id="sec-behavior-6-2-1">
+<li id="sec-behavior-6-2-1-1">
+<div class="para" id="p-derived-sec-behavior-6-2-1-1">Time in class should be focussed on the class.  Think, listen, and learn.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-behavior-6-2-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-behavior-6-2-1-2">
+<div class="para" id="p-derived-sec-behavior-6-2-1-2">School iPads (personal iPads are not allowed) and laptops should be in use for class activities or put away.  Do not take photos/videos or make sound recordings of people without explicit permission from all the people.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-behavior-6-2-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-behavior-6-2-1-3">
+<div class="para" id="p-derived-sec-behavior-6-2-1-3">This classroom is a shared space.  It needs to be picked up and cleaned up routinely.  If you got it out, put it away.  If you made a mess, clean it up.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-behavior-6-2-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-behavior-6-2-1-4">
+<div class="para" id="p-derived-sec-behavior-6-2-1-4">Discussions with your current classmates of problems sets and labs are always encouraged with the constraint that submitted work must reflect your own final understanding of the concepts and information.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-behavior-6-2-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-behavior-6-2-1-5">
+<div class="para" id="p-derived-sec-behavior-6-2-1-5">Discussions of anything relevant to the class with Dr. Horner are always encouraged.  Advisors and Learning Support are also good non-content-specific resources.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-behavior-6-2-1-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-behavior-6-2-1-6">
+<div class="para" id="p-derived-sec-behavior-6-2-1-6">Unless instructions say otherwise, use of AI tools to complete assignments is forbidden.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-behavior-6-2-1-6" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-behavior-6-2-1-7">
+<div class="para" id="p-derived-sec-behavior-6-2-1-7">Discussions of quizzes/tests/exams with classmates is forbidden until the quiz/test/exam is graded and returned.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-behavior-6-2-1-7" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-behavior-6-2-1-8">
+<div class="para" id="p-derived-sec-behavior-6-2-1-8">As an honors/AP/post-AP course, content-specific tutoring is allowed only under extraordinary circumstances.  Learning Support is fine.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-behavior-6-2-1-8" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-behavior-6-2-1-9">
+<div class="para" id="p-derived-sec-behavior-6-2-1-9">If you must leave the classroom during class, make sure Dr. Horner knows you are leaving and on what errand (bathroom, nurse, early dismissal, etc.)</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-behavior-6-2-1-9" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-behavior-6-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Classroom Policies"><a tabindex="-1" href="#sec-behavior-6" title="Copy heading and permalink for Paragraphs: Classroom Policies" aria-label="Copy heading and permalink for Paragraphs: Classroom Policies">🔗</a></div>
+</section><div class="autopermalink" aria-hidden="true" data-description="Subsection: Behavior Expectations"><a tabindex="-1" href="#sec-behavior" title="Copy heading and permalink for Subsection: Behavior Expectations" aria-label="Copy heading and permalink for Subsection: Behavior Expectations">🔗</a></div>
+</section>
+<section class="subsection" id="sec-activities">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Activities</span>
+</h2>
+<section class="paragraphs" id="sec-activities-2"><h3 class="heading"><span class="title">New Material.</span></h3>
+<div class="para" id="sec-activities-2-2">Expect to take notes every day in class.  This is a way of processing information, of storing it (both electronically and in your brain), and keeping track of questions you have.  You may use paper or your school iPad but set up a way to keep your notes organized.  For most people, the process of taking notes is itself helpful in remembering and thinking about the material.  In addition, you should plan on reviewing and annotating your notes outside of class to consolidate your understanding.  You should also have your in-progress problem set available during class because you may generally ask a few questions at some point during class.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-activities-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-activities-2-3">Expect to work in small groups for at least part of each class session.  The goal is to increase your understanding of the material by working on new concepts immediately and through discussion with peers. Normally, this is checked by conversation with peers and on-the-spot overview by Dr. Horner.  Occasionally, a group submission may be required in which case the points will go in the Practice category.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-activities-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: New Material"><a tabindex="-1" href="#sec-activities-2" title="Copy heading and permalink for Paragraphs: New Material" aria-label="Copy heading and permalink for Paragraphs: New Material">🔗</a></div>
+</section>
+<section class="paragraphs" id="sec-activities-3"><h3 class="heading"><span class="title">Lab: 16% of semester grade.</span></h3>
+<div class="para" id="sec-activities-3-2">Collecting data will always be a group activity.  In some cases, your group will turn in one copy of the data.  In other cases, you’ll each need to turn in a copy with further work.  I expect that the data will be the same for all members of the group.  Data is graded very lightly for correctness (did you collect the correct kinds of data and is it accurate within the usual range for this type of lab) and strictly for accurate labels including accurate units.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-activities-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-activities-3-3">Copying data from other groups is permissible only in dire circumstances and with <em class="emphasis">advance</em> permission from Dr. Horner; otherwise, it is academic dishonesty.  Falsifying, changing, or making up your data is always academic dishonesty.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-activities-3-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-activities-3-4">Calculations and graphs may get done during class or may need to be done afterward depending on timing.  In either case, all members of the group must contribute meaningfully to the process.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-activities-3-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-activities-3-5">The discussion will almost always be a single sentence in a prescribed structure given in the lab instructions.  This is where your group concisely and in your own words articulates the <em class="emphasis">claim(s)</em>, <em class="emphasis">evidence</em>, and <em class="emphasis">reasoning</em> that extracts meaning from your raw data. Again, all members of the group must contribute meaningfully to the process.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-activities-3-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-activities-3-6">Asking Dr. Horner and classmates for advice is fine.  Copying from any source, including AI, is academic dishonesty.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-activities-3-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-activities-3-7">Everyone in the group needs to assign themselves to a Canvas lab group so that one submission works for all and feedback goes to everyone.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-activities-3-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Lab: 16% of semester grade"><a tabindex="-1" href="#sec-activities-3" title="Copy heading and permalink for Paragraphs: Lab: 16% of semester grade" aria-label="Copy heading and permalink for Paragraphs: Lab: 16% of semester grade">🔗</a></div>
+</section>
+<section class="paragraphs" id="sec-activities-4"><h3 class="heading"><span class="title">Materials.</span></h3>
+<div class="para" id="sec-activities-4-2">The daily notes slides and homework assignments will generally tell you what sections of our textbook are relevant and may also point you towards practice sites, videos, or simulations.  These are resources to help you understand the material better and be more comfortable with it.  If you miss class, start with these resources and then meet with Dr. Horner as necessary so you understand the material.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-activities-4-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-activities-4-3">We will be using  <span class="booktitle">Differential Equations &amp; Linear Algebra</span> by Edwards, Penney, and Calvis.  Additional, on-line, resources are listed in the Canvas document <span class="articletitle">“Resources for the whole year”</span>.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-activities-4-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-activities-4-4">You may use any scientific calculator in class.  The TI-84 (or the TI-89) work well.  You may also use a calculator app on your iPad <em class="emphasis">except</em> during tests.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-activities-4-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Materials"><a tabindex="-1" href="#sec-activities-4" title="Copy heading and permalink for Paragraphs: Materials" aria-label="Copy heading and permalink for Paragraphs: Materials">🔗</a></div>
+</section>
+<section class="paragraphs" id="sec-activities-5"><h3 class="heading"><span class="title">Problem Sets: 12% of semester grade.</span></h3>
+<div class="para" id="sec-activities-5-2">There are two goals here: one is for you to practice so that ideas and skills will stick better; the other is for you to check your level of understanding so you know whether or not you need to bring questions to Extra Help / Office Hours or a free bell.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-activities-5-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-activities-5-3">You may talk to classmates, your teacher, friends, and family, but not AI unless otherwise instructed in the assignment, <em class="emphasis">about</em> answering these questions but what you turn in needs to be your own understanding of them (with or without the conversations).  Copying from <em class="emphasis">any</em> source is academic dishonesty.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-activities-5-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-activities-5-4">Problem sets are typically posted in two versions: an interactive version and a pdf version suitable for writing on directly using your iPad.  Answers will appear in the interactive version with a click.  Please use the provided answers to check your work. Please upload a single pdf of your work to Canvas for submission.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-activities-5-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-activities-5-5">Problem sets are typically posted at the beginning of a unit and due approximate one or two weeks later, often the day of the test over that material.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-activities-5-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-activities-5-6">There are required problems, in sections with “Set” in the title for 93%, and “Pick” problems labeled as either 1% or 0.5% from which up to a total of an additional 7% can be completed.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-activities-5-6" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-activities-5-7">Problem sets are due at the <em class="alert">beginning</em> of class on the date posted in Canvas.  Assignments submitted later that school day (by 3:45pm) will lose 5%; later homework will lose 10% per school day (capped at 50% loss).  Homework will be graded on completion where completion means you explain clearly how you arrived at your answer.  This might be in words, drawings/graphs, or equations or some combination of them.  No lonely answers.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-activities-5-7" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Problem Sets: 12% of semester grade"><a tabindex="-1" href="#sec-activities-5" title="Copy heading and permalink for Paragraphs: Problem Sets: 12% of semester grade" aria-label="Copy heading and permalink for Paragraphs: Problem Sets: 12% of semester grade">🔗</a></div>
+</section>
+<section class="paragraphs" id="sec-activities-6"><h3 class="heading"><span class="title">Tests: 44% of semester grade.</span></h3>
+<div class="para" id="sec-activities-6-2">Tests are closed-book.  Calculators are allowed. If you are asked to show “by hand” how to do integration or differentiation then you must show the process for obtaining an answer as if you had no calculator (though you may use your calculator to check).  Equations sheets <em class="emphasis">may</em> be provided.  Tests are typically 70-80 minutes long and consist of open-ended questions in which you will show how you arrive at your answers.  There will be eight tests over the course of the year.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-activities-6-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-activities-6-3">You may ask questions or clarifications during the test/exam.  Whether or not they will be answered will depend on Dr. Horner’s judgement of whether or not doing so would enhance or undermine the integrity of the test/exam.  No resources other than those mentioned at the top of each test or exam are permissible during that test or exam.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-activities-6-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Tests: 44% of semester grade"><a tabindex="-1" href="#sec-activities-6" title="Copy heading and permalink for Paragraphs: Tests: 44% of semester grade" aria-label="Copy heading and permalink for Paragraphs: Tests: 44% of semester grade">🔗</a></div>
+</section>
+<section class="paragraphs" id="sec-activities-7"><h3 class="heading"><span class="title">Semester Exams: 20%.</span></h3>
+<div class="para" id="sec-activities-7-2">Semester exams are in the same format and given under the same conditions as tests except that they are 2 hours long with a 15 minute grace period allowed (the grace period is <em class="emphasis">not</em> increased for students with extended time by school policy).<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-activities-7-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-activities-7-3">All students will take a Winter Exam.  Seniors with a class average and a fourth-quarter average of 85% or better may elect to skip the spring exam. In which case, all the 20% will be redistributed proportionally among the other grading categories.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-activities-7-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Semester Exams: 20%"><a tabindex="-1" href="#sec-activities-7" title="Copy heading and permalink for Paragraphs: Semester Exams: 20%" aria-label="Copy heading and permalink for Paragraphs: Semester Exams: 20%">🔗</a></div>
+</section>
+<section class="paragraphs" id="sec-activities-8"><h3 class="heading"><span class="title">Test Corrections and Reflections: 4% of semester grade.</span></h3>
+<div class="para logical" id="sec-activities-8-2">
+<div class="para">As a separate component you will be required to submit \textbf{test reflections} for each test and the winter exam.  This will consist of</div>
+<ul class="disc" id="sec-activities-8-2-1">
+<li id="sec-activities-8-2-1-1">
+<div class="para" id="p-derived-sec-activities-8-2-1-1">photos of your graded test,</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-activities-8-2-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-activities-8-2-1-2">
+<div class="para" id="p-derived-sec-activities-8-2-1-2">reflection on what went wrong on each problem or problem part marked off,</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-activities-8-2-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-activities-8-2-1-3">
+<div class="para" id="p-derived-sec-activities-8-2-1-3">a corrected solution</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-activities-8-2-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-activities-8-2-1-4">
+<div class="para" id="p-derived-sec-activities-8-2-1-4">plus if that answer materially changes further parts of the problem, corrections of them as well, and</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-activities-8-2-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-activities-8-2-1-5">
+<div class="para" id="p-derived-sec-activities-8-2-1-5">an overall reflection of what went well and what went poorly in your preparation for and taking of the text.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-activities-8-2-1-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-activities-8-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-activities-8-3">The intent is both that tests be learning experiences and to replace incorrect practice with correct practice.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-activities-8-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Test Corrections and Reflections: 4% of semester grade"><a tabindex="-1" href="#sec-activities-8" title="Copy heading and permalink for Paragraphs: Test Corrections and Reflections: 4% of semester grade" aria-label="Copy heading and permalink for Paragraphs: Test Corrections and Reflections: 4% of semester grade">🔗</a></div>
+</section>
+<section class="paragraphs" id="sec-activities-9"><h3 class="heading"><span class="title">What to do if you get stuck.</span></h3>
+<div class="para logical" id="sec-activities-9-2">
+<ul class="disc" id="sec-activities-9-2-1">
+<li id="sec-activities-9-2-1-1">
+<div class="para" id="p-derived-sec-activities-9-2-1-1">Imagine asking someone the question you want to ask (Mr. Twyford’s ``ask the rubber duck’’ method).  Sometimes this helps you at least see more clearly why you’re stuck.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-activities-9-2-1-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-activities-9-2-1-2">
+<div class="para" id="p-derived-sec-activities-9-2-1-2">Reread your notes, the textbook, or review any simulations, videos, etc. suggested for that unit.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-activities-9-2-1-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-activities-9-2-1-3">
+<div class="para" id="p-derived-sec-activities-9-2-1-3">Discuss your question with a classmate.  (Note that this is NOT the same as asking what the answer is or even asking what calculation to do.)</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-activities-9-2-1-3" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-activities-9-2-1-4">
+<div class="para" id="p-derived-sec-activities-9-2-1-4">Consult your teacher.  There’s usually ``Extra Help / Office Hours’’ twice a week during Community Time.  Lunch, before school, or right after school may also work.  Mutual free bells also work, though an email checking no conflicts have arisen is useful.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-activities-9-2-1-4" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+<li id="sec-activities-9-2-1-5">
+<div class="para" id="p-derived-sec-activities-9-2-1-5">Turn your attention to something else (possibly including sleeping if it’s night) on your to-do list and come back later with a refreshed brain.</div>
+<div class="autopermalink" aria-hidden="true" data-description="Item"><a tabindex="-1" href="#sec-activities-9-2-1-5" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+</li>
+</ul>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-activities-9-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: What to do if you get stuck"><a tabindex="-1" href="#sec-activities-9" title="Copy heading and permalink for Paragraphs: What to do if you get stuck" aria-label="Copy heading and permalink for Paragraphs: What to do if you get stuck">🔗</a></div>
+</section>
+<section class="paragraphs" id="sec-activities-10"><h3 class="heading"><span class="title">Absence from class.</span></h3>
+<div class="para" id="sec-activities-10-2">See the “Student Life Guide”, “Condensed Student Policies”, and “Planned Absence Form” in the Canvas Student Central course for how to handle absences.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-activities-10-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Absence from class"><a tabindex="-1" href="#sec-activities-10" title="Copy heading and permalink for Paragraphs: Absence from class" aria-label="Copy heading and permalink for Paragraphs: Absence from class">🔗</a></div>
+</section>
+<section class="paragraphs" id="sec-activities-11"><h3 class="heading"><span class="title">Accommodations.</span></h3>
+<div class="para" id="sec-activities-11-2">If you have accommodations, especially testing accommodations, please speak with Dr. Horner briefly so we have the same understanding of how they will play out in the context of this particular class.  Generally speaking for extended time, take half during class and the other half in Study Hall during the first available free bell.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-activities-11-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Paragraphs: Accommodations"><a tabindex="-1" href="#sec-activities-11" title="Copy heading and permalink for Paragraphs: Accommodations" aria-label="Copy heading and permalink for Paragraphs: Accommodations">🔗</a></div>
+</section><div class="autopermalink" aria-hidden="true" data-description="Subsection: Activities"><a tabindex="-1" href="#sec-activities" title="Copy heading and permalink for Subsection: Activities" aria-label="Copy heading and permalink for Subsection: Activities">🔗</a></div>
+</section>
+<section class="subsection" id="sec-scale">
+<h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber"></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Grading Scale</span>
+</h2>
+<div class="para" id="sec-scale-2">Final letter grades will be computed according to the table of percentages below.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-scale-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="tabular-box natural-width"><table class="tabular">
+<tr>
+<td class="r m b0 r0 l0 t0 lines">A+</td>
+<td class="l m b0 r0 l0 t0 lines">97 <span class="process-math">\(\lte\)</span> grade</td>
+<td class="r m b0 r0 l0 t0 lines">C+</td>
+<td class="l m b0 r0 l0 t0 lines">77 <span class="process-math">\(\lte\)</span> grade <span class="process-math">\(\lt\)</span> 80</td>
+</tr>
+<tr>
+<td class="r m b0 r0 l0 t0 lines">A</td>
+<td class="l m b0 r0 l0 t0 lines">93 <span class="process-math">\(\lte\)</span> grade <span class="process-math">\(\lt\)</span> 97</td>
+<td class="r m b0 r0 l0 t0 lines">C</td>
+<td class="l m b0 r0 l0 t0 lines">73 <span class="process-math">\(\lte\)</span> grade <span class="process-math">\(\lt\)</span> 77</td>
+</tr>
+<tr>
+<td class="r m b0 r0 l0 t0 lines">A-</td>
+<td class="l m b0 r0 l0 t0 lines">90 <span class="process-math">\(\lte\)</span> grade <span class="process-math">\(\lt\)</span> 93</td>
+<td class="r m b0 r0 l0 t0 lines">C-</td>
+<td class="l m b0 r0 l0 t0 lines">70 <span class="process-math">\(\lte\)</span> grade <span class="process-math">\(\lt\)</span> 73</td>
+</tr>
+<tr>
+<td class="r m b0 r0 l0 t0 lines">B+</td>
+<td class="l m b0 r0 l0 t0 lines">87 <span class="process-math">\(\lte\)</span> grade <span class="process-math">\(\lt\)</span> 90</td>
+<td class="r m b0 r0 l0 t0 lines">D+</td>
+<td class="l m b0 r0 l0 t0 lines">67 <span class="process-math">\(\lte\)</span> grade <span class="process-math">\(\lt\)</span> 70</td>
+</tr>
+<tr>
+<td class="r m b0 r0 l0 t0 lines">B</td>
+<td class="l m b0 r0 l0 t0 lines">83 <span class="process-math">\(\lte\)</span> grade <span class="process-math">\(\lt\)</span> 87</td>
+<td class="r m b0 r0 l0 t0 lines">D</td>
+<td class="l m b0 r0 l0 t0 lines">63 <span class="process-math">\(\lte\)</span> grade <span class="process-math">\(\lt\)</span> 67</td>
+</tr>
+<tr>
+<td class="r m b0 r0 l0 t0 lines">B-</td>
+<td class="l m b0 r0 l0 t0 lines">80 <span class="process-math">\(\lte\)</span> grade <span class="process-math">\(\lt\)</span> 83</td>
+<td class="r m b0 r0 l0 t0 lines">D-</td>
+<td class="l m b0 r0 l0 t0 lines">60 <span class="process-math">\(\lte\)</span> grade <span class="process-math">\(\lt\)</span> 63</td>
+</tr>
+</table></div>
+<div class="para" id="sec-scale-4">Grades less than 60% will be reported as NP = not passing.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-scale-4" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="sec-scale-5">Percentages will be rounded to the nearest whole number and exact half points will round up in the final assignment of grades.  But note that Canvas will be set not to show rounded grades.<div class="autopermalink" aria-hidden="true" data-description="Paragraph"><a tabindex="-1" href="#sec-scale-5" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" aria-hidden="true" data-description="Subsection: Grading Scale"><a tabindex="-1" href="#sec-scale" title="Copy heading and permalink for Subsection: Grading Scale" aria-label="Copy heading and permalink for Subsection: Grading Scale">🔗</a></div>
+</section><div class="autopermalink" aria-hidden="true" data-description="Section: Syllabus: Differential Equations with Linear Algebra"><a tabindex="-1" href="#syllabus" title="Copy heading and permalink for Section: Syllabus: Differential Equations with Linear Algebra" aria-label="Copy heading and permalink for Section: Syllabus: Differential Equations with Linear Algebra">🔗</a></div>
+</section>
+</div>
+<div id="ptx-content-footer" class="ptx-content-footer">
+<a class="previous-button button" href="course-documents.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="slides.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+</div></main>
+</div>
+<div id="ptx-page-footer" class="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+</div>
+</body>
+</html>
