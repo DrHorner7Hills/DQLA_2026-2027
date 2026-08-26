@@ -16,7 +16,7 @@ var ptx_lunr_docs = [
   "type": "Chapter",
   "number": "",
   "title": "Daily Slideshows",
-  "body": " Daily Slideshows   This is where each day's notes get stored.    2026-08-26_diff-eq-math-models  2026-08-26_integrals-as-solns   "
+  "body": " Daily Slideshows   This is where each day's notes get stored.    2026-08-26_diff-eq-math-models  2026-08-28_integrals-as-solns   "
 },
 {
   "id": "labs",
